@@ -4,7 +4,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from langchain_cohere import CohereEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain import hub
-from langchain.pydantic_v1 import BaseModel
+from pydantic.v1 import BaseModel
 from langserve import add_routes
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_core.output_parsers.string import StrOutputParser
